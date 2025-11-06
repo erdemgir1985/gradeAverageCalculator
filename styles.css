@@ -1,0 +1,135 @@
+/* Sade Not Hesaplayıcı Stilleri */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.calculator {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.sonuc {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.sonuc p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#ortalama {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+#durum {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#durum.gec {
+    color: #4CAF50;
+}
+
+#durum.kal {
+    color: #f44336;
+}
+
+.notlar {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ffeaa7;
+}
+
+.notlar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.notlar li {
+    margin-bottom: 5px;
+    color: #856404;
+}
+
+.notlar li:before {
+    content: "• ";
+    color: #ffc107;
+    font-weight: bold;
+    margin-right: 5px;
+}
